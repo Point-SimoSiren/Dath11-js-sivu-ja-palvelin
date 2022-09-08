@@ -1,0 +1,13 @@
+table, td {
+    border-style: solid;
+    
+    padding: 10px;
+}
+
+#sivu {
+   min-height: 400px;
+}
+
+#postaukset {
+    color: darkgrey
+}

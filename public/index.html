@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Yhdistyksen kotisivu</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="sivu">
+            <button onclick="tumma()">Tumma teema</button>
+            <button onclick="vaalea()">Vaalea teema</button>
+            <marquee><h1 id="pääOtsikko">Yhdistys ry</h1></marquee>
+
+                <div style="margin-left: 40%;">
+                    <button onclick="pääsivulle()">Pääsivu</button>
+                    <button onclick="yhteystietoihin()">Yhteystiedot</button>
+                    <button onclick="haePostaukset()">Postaukset</button>
+                
+                    <div id="sisältö"></div>
+                </div>
+        </div>
+        <script src="sivun-scriptit.js"></script>
+    </body>
+</html>
