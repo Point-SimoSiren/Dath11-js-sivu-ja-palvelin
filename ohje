@@ -1,0 +1,5 @@
+Anna komento npm install express
+
+Sitten komento node server.js (käynnistää palvelimen)
+
+Avaa selain osoitteessa: localhost:3000
